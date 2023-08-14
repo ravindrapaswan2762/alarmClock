@@ -1,0 +1,85 @@
+/* Basic styling for the entire body */
+body {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-image: linear-gradient(0deg, #2c3e50 0%, #bdc3c7 100%);
+}
+
+/* Styling for the main container */
+.main {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  margin: auto;
+  width: 35vw;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  min-width: 400px;
+}
+
+/* Styling for images */
+img {
+  padding-top: 10px;
+  height: 15%;
+  width: 15%;
+}
+
+/* Styling for the clock */
+.clock {
+  font-size: 36px;
+}
+
+/* Styling for input fields */
+input {
+  height: 2vh;
+  width: 3vw;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, #2c3e50 0%, #bdc3c7 0%);
+}
+
+/* Styling for select dropdowns */
+select {
+  border-radius: 5px;
+  background-color: lightslategray;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Styling for buttons */
+button {
+  border-radius: 5px;
+  background-color: lightslategray;
+  color: black;
+  font-weight: bold;
+}
+
+/* Styling for the alarms list */
+#alarms {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Styling for the "Set Alarm" button */
+.setAlarmBtn {
+  margin: auto;
+  margin-top: 10px;
+  height: 5%;
+  width: 20%;
+
+}
+
+/* Styling for flexible layout */
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}

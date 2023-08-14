@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <div class="main">
+      <div>
+        <img src="alarm.png">
+      </div>
+
+      <div class="clock">
+        <span id="time"></span>
+      </div>
+    
+      <div class="alarm-form">
+        <hr>
+        <h2>Set Alarm</h2>
+
+        <label for="alarmHour">Hour:</label>
+        <input type="number" id="alarmHour" min="1" max="12" required>
+
+        <label>Minute:</label>
+        <input type="number" id="alarmMinute" min="0" max="59" required>
+
+        <label>Second:</label>
+        <input type="number" id="alarmSecond" min="0" max="59" required>
+        
+        <label>AM/PM:</label>
+        <select id="amPm">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+
+      </div>
+
+      <button class="setAlarmBtn" onclick="setAlarm()">Set Alarm</button>
+
+      <div class="alarms-list">
+        <h2>Alarms List</h2>
+        <hr>
+        <ul id="alarms">
+          
+        </ul>
+      </div>
+  </div>
+
+</body>
+</html>
+
+<script src="index.js"></script>
+
+
