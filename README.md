@@ -1,2 +1,2 @@
 # alarmClock
-## Check out the master branch for the code.
+## Switch from main branch to master branch for the code.
