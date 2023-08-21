@@ -1,4 +1,4 @@
-<img src="https://github.com/ravindrapaswan2762/alarmClock/blob/master/Screenshot00">
+<img src="https://github.com/ravindrapaswan2762/alarmClock/blob/master/Screenshot00.png">
 
 
 # Alarm Clock Web Application
