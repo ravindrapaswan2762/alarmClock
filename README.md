@@ -3,16 +3,32 @@ This is a simple web application that allows us to set alarms, view the list of 
 
 # Features
 ### Clock Face
-The clock face prominently displays the current time, updating every second to accurately reflect the passage of time.
+* The clock face prominently displays the current time, updating every second to accurately reflect the passage of time.
 
 ### Set Alarm
-The application enables users to set alarms by specifying the hour, minute, and second along with an AM/PM designation. Once the desired time is entered, clicking the "Set Alarm" button will add the alarm to the list below.
+* The application enables users to set alarms by specifying the hour, minute, and second along with an AM/PM designation.
+* Once the desired time is entered, clicking the "Set Alarm" button will add the alarm to the list below.
 
 ### Alarms List
-All the alarms set by the user are listed below the clock face. Each alarm entry includes the set time along with a "Delete" button to remove the alarm.
+* All the alarms set by the user are listed below the clock face.
+* Each alarm entry includes the set time along with a "Delete" button to remove the alarm.
 
 ### Delete Alarm
-Users can easily delete alarms from the list by clicking the associated "Delete" button. Deleting an alarm ensures that it won't trigger an alert when its time comes.
+* Users can easily delete alarms from the list by clicking the associated "Delete" button.
+* Deleting an alarm ensures that it won't trigger an alert when its time comes.
+
+### Play Notification Sound:
+* When an alarm time is reached, the application plays a notification sound to alert the user. The sound can be heard through an audio element on the page.
+* The sound is set to loop continuously to ensure the user is alerted until they interact with it.
+
+### Confirmation Dialog:
+* Upon triggering the alarm, a confirmation dialog is displayed every second, asking the user if they want to stop the alarm.
+* The dialog provides a message indicating that the alarm is going off. The user can choose to stop the alarm by clicking the "OK" button on the dialog.
+
+### Stopping Alarms:
+* If the user confirms in the dialog, the notification sound is paused, effectively stopping the alarm.
+* Additionally, the associated alarm is deleted from the list to prevent it from alerting again.
+* The interval for displaying the confirmation dialog is cleared to stop showing the dialog.
 
 # How to Use
 ### Set Alarm:
