@@ -1,6 +1,5 @@
 <img src="https://github.com/ravindrapaswan2762/alarmClock/blob/master/Screenshot00.png">
 
-
 # Alarm Clock Web Application
 This is a simple web application that allows us to set alarms, view the list of alarms, and delete alarms. The application features a clock face that displays the current time, and it provides a user-friendly interface for managing alarms.
 
